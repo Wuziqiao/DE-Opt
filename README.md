@@ -28,9 +28,9 @@ format: user_ID::item_ID::ratings::time_stamp
 Property: |U| 6040 |I| 3706	|YK| 1,000,209	Density 4.47%
 Density denotes the percentage of known ratings or interactions in the dataset.
 dataset is randomly split into three folds, i.e., training/validation/testing sets that contain 70%/10%/20% observed entries, respectively.
-## Baseline Model
+## Experiment Model
 ### Fixed Hyperparameter models && DE-Opt model
-### rating prediction 
+### rating prediction models 
 **AutoRec** && **AutoRec+(DE-Opt)**
 
 Cite: Sedhain, S., Menon, A.K., Sanner, S., Xie, L.: Autorec: Autoencoders meet collabora-tive filtering. In: WWW, pp. 111–112 (2015)
@@ -42,7 +42,7 @@ Cite: Li, P., Wang, Z., Ren, Z., Bing, L., Lam, W.: Neural rating regression wit
 **MetaMF** && **MetaMF+(DE-Opt)**
 
 Cite: Lin, Y., Ren, P., Chen, Z., Ren, Z., Yu, D., Ma, J., Rijke, M.d., Cheng, X.: Meta ma-trix factorization for federated rating predictions. In: SIGIR,pp. 981–990 (2020)
-### item ranking model
+### item ranking models
 **NeuMF** && **NeuMF+(DE-Opt)**
 
 Cite: He, X., Liao, L., Zhang, H., Nie, L., Hu, X., Chua, T.S.: Neural collaborative filtering. In: WWW. pp. 173–182 (2017)
