@@ -31,27 +31,27 @@ dataset is randomly split into three folds, i.e., training/validation/testing se
 ## Baseline Model
 ### Fixed Hyperparameter models && DE-Opt model
 ### rating prediction 
-**AutoRec** && **AutoRec-(DE-Opt)**
+**AutoRec** && **AutoRec+(DE-Opt)**
 
 Cite: Sedhain, S., Menon, A.K., Sanner, S., Xie, L.: Autorec: Autoencoders meet collabora-tive filtering. In: WWW, pp. 111–112 (2015)
 
-**NRT** && **NRT-(DE-Opt)**
+**NRT** && **NRT+(DE-Opt)**
 
 Cite: Li, P., Wang, Z., Ren, Z., Bing, L., Lam, W.: Neural rating regression with abstractive tips generation for recommendation. In: SIGIR, pp. 345–354 (2017)
 
-**MetaMF** && **MetaMF-(DE-Opt)**
+**MetaMF** && **MetaMF+(DE-Opt)**
 
 Cite: Lin, Y., Ren, P., Chen, Z., Ren, Z., Yu, D., Ma, J., Rijke, M.d., Cheng, X.: Meta ma-trix factorization for federated rating predictions. In: SIGIR,pp. 981–990 (2020)
 ### item ranking model
-**NeuMF** && **NeuMF-(DE-Opt)**
+**NeuMF** && **NeuMF+(DE-Opt)**
 
 Cite: He, X., Liao, L., Zhang, H., Nie, L., Hu, X., Chua, T.S.: Neural collaborative filtering. In: WWW. pp. 173–182 (2017)
 
-**LRML** && **LRML-(DE-Opt)**  
+**LRML** && **LRML+(DE-Opt)**  
 
 Cite: Tay, Y., Anh Tuan, L., Hui, S.C.: Latent relational metric learning via memory-based attention for collaborative ranking. In: WWW, pp. 729–739 (2018)
 
-**NGCF** && **NGCF-(DE-Opt)**
+**NGCF** && **NGCF+(DE-Opt)**
 
 Cite: Wang, X., He, X., Wang, M., Feng, F., Chua, T.S.: Neural graph collaborative filtering. In: SIGIR, pp. 165–174 (2019)
 ### Adaptive Hyperparameter models && DE-Opt model
