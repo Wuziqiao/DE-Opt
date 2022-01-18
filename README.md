@@ -56,25 +56,44 @@ Cite: Tay, Y., Anh Tuan, L., Hui, S.C.: Latent relational metric learning via me
 Cite: Wang, X., He, X., Wang, M., Feng, F., Chua, T.S.: Neural graph collaborative filtering. In: SIGIR, pp. 165–174 (2019)
 ### Adaptive Hyperparameter models && DE-Opt model
 **η-Adaptive Model**
+
 (1) Adam
+
 Cite: Kingma, D.P., Ba, J.: Adam: A method for stochastic optimization. In: ICLR, (2015)
+
 (2) AMSGrad
+
 Cite: Reddi, S. J., Kale, S., & Kumar, S.: On the convergence of adam and beyond. In: ICLR, 2018
+
 (3) AdaMod
+
 Cite: Ding, J., Ren, X., Luo, R., Sun, X.: An adaptive and momental bound method for stochastic learning. arXiv preprint arXiv:1910.12249 (2019)
 
 **λ-Adaptive Model** 
+
 (1) SGDA
+
 Cite: Rendle, S.: Learning recommender systems with adaptive regularization. In: WSDM, pp. 133–142 (2012)
+
 (2) λOpt
+
+
 Cite: Chen, Y., Chen, B., He, X., Gao, C., Li, Y., Lou, J.G., Wang, Y.: λopt: Learn to regularize recommender models in finer levels. In: SIGKDD, pp. 978–986 (2019)
 
 **η-λ-Adaptive Model**
+
 (1) λOpt-Adam
+
 We adopt η-adaptive Adam to optimize λOpt
+
+
 (2) λOpt-AMSGrad
+
 We adopt η-adaptive AMSGrad to optimize λOpt
+
+
 (3) λOpt-AdaMod
+
 We adopt η-adaptive AdaMod to optimize λOpt
 
 
